@@ -42,4 +42,4 @@ $ HELP -> https://mod-help.vercel.app/help
 * /app/uppercase/server
 #
 *
-
+^ For OS:-  curl -sLO https://github.com/mhmdsami/os/archive/refs/heads/main.zip and then tpye unzip <filename> of the donwloaded file
