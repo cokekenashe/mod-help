@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import fs from "fs";
+import path from "path"
 
 (async () => {
   const app = express();
@@ -10,7 +11,9 @@ import fs from "fs";
   app.use(cors());
 
   app.get("/", (req, res) => {
-    res.json({ message: "Hello World" });
+    res.json({ message: "Hello World",
+  path: path.resolve("./app") });
+
   });
 
   app.get("/help", (req, res) => {
