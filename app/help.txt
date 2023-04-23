@@ -1,29 +1,45 @@
 ^
 ^ To download output into a file instead of viewing it on terminal use the following command:
 ^
-^ curl cn.cheeez.xyz/arpc -o client.py
+^ curl https://mod-help.vercel.app/app/mergesort -o mergesort.py
 ^
 ^ This will download the content of the file into a file named client.py
 
-$ HELP -> curl cn.cheeez.xyz/help
+$ HELP -> https://mod-help.vercel.app/help
 
-* ARP CLIENT -> curl cn.cheeez.xyz/arpc
-# ARP SERVER -> curl cn.cheeez.xyz/arps
-* CONCURRENT TCP CLIENT -> curl cn.cheeez.xyz/cotcpc
-# CONCURRENT TCP SERVER -> curl cn.cheeez.xyz/cotcps
-* FILE TRANSFER CLIENT -> curl cn.cheeez.xyz/ftc
-# FILE TRANSFER SERVER -> curl cn.cheeez.xyz/fts
-* FULL DUPLEX CLIENT -> curl cn.cheeez.xyz/fullc
-# FULL DUPLEX SERVER -> curl cn.cheeez.xyz/fulls
-* HALF DUPLEX CLIENT -> curl cn.cheeez.xyz/halfc
-# HALF DUPLEX SERVER -> curl cn.cheeez.xyz/halfs
-* REMOTE COMMAND CLIENT -> curl cn.cheeez.xyz/rcc
-# REMOTE COMMAND SERVER -> curl cn.cheeez.xyz/rcs
-* TCP CLIENT -> curl cn.cheeez.xyz/tcpc
-# TCP SERVER -> curl cn.cheeez.xyz/tcps
-* UDP ECHO CLIENT -> curl cn.cheeez.xyz/udpc
-# UDP ECHO SERVER -> curl cn.cheeez.xyz/udps
-* NAT CISCO PACKET TRACER -> curl cn.cheeez.xyz/nat -o nat.pkt    (will be downloaded to file nat.pkt)
-# VPN CISCO PACKET TRACER -> curl cn.cheeez.xyz/vpn -o vpn.pkt    (will be downloaded to file vpn.pkt)
-* HDLC CISCO PACKET TRACER -> curl cn.cheeez.xyz/hdlc -o hdlc.pkt    (will be downloaded to file hdlc.pkt)
-# PPP CISCO PACKET TRACER -> curl cn.cheeez.xyz/ppp -o ppp.pkt    (will be downloaded to file ppp.pkt)
+# APP SECTION 
+* automata -> curl https://mod-help.vercel.app/app/automata
+
+# stack
+* currying
+# threadingdictionary
+* closures   
+# concurent
+* frequency
+# gui
+* hof
+# mergesort
+* numbers
+# racecondition
+* recursion
+# searchword
+* sql
+# functional
+* logic
+# symbolic
+* automata
+# /app/chat/client
+* /app/chat/server
+# /app/dns/client
+* /app/dns/server
+# /app/filetransfer/client
+* /app/filetransfer/server
+# /app/pingpong/client
+* /app/pingpong/server
+# /app/rcp/client
+* /app/rcp/server
+# /app/uppercase/client
+* /app/uppercase/server
+#
+*
+
