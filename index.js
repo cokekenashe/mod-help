@@ -84,7 +84,7 @@ import path from "path"
     res.send(data);
   });
   app.get("/app/functional", (req, res) => {
-    const data = fs.readFileSync(path.resolve("./app/functional.ipynb") "utf8");
+    const data = fs.readFileSync(path.resolve("./app/functional.ipynb"), "utf8");
     res.send(data);
   });
   app.get("/app/logic", (req, res) => {
